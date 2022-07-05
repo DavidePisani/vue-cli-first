@@ -1,18 +1,22 @@
 <template>
   <div id="app">
-    <FirstAppCLI msg="La mia prima app con Vue CLI!"/>
+    <FirstAppCLI/>
+    <MyHero/>
 
-    <img alt="Vue logo" src="./assets/scimmia.jpg"> 
+    <!-- <Hero Image="./assets/scimmia.jpg" > -->
+
   </div>
 </template>
 
 <script>
 import FirstAppCLI from './components/FirstAppCLI.vue'
+import MyHero from './components/MyHero.vue'
 
 export default {
   name: 'App',
   components: {
-    FirstAppCLI
+    FirstAppCLI,
+    MyHero
   }
 }
 </script>
